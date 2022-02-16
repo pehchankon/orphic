@@ -37,6 +37,7 @@ class CategoryPage extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 18, vertical: 20),
       child: Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
           list.ListCard(name: 'Margherita'),
           SizedBox(height:16),

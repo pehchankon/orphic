@@ -18,7 +18,7 @@ class TopBar extends StatelessWidget {
         children: [
           Row(
             children: [
-              back.BackButton(color: Color(0xFF3D3D3D)),
+              back.BackButton(color: Colors.white),
               SizedBox(width: 16),
               Center(child: ItemName(name: name, imgURL: imgURL)),
             ],
